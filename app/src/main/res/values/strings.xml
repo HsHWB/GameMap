@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LittleMap</string>
+    <string name="my_point">Coordinate:X&#160;%1$d，Y&#160;%2$d，Z&#160;%3$d</string>
+</resources>

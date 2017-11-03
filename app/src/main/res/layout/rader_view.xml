@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="154dp"
+    android:layout_height="180dp">
+
+
+    <RelativeLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rader_bg">
+
+        <FrameLayout
+            android:id="@+id/main_layer"
+            android:layout_width="144dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="5.52dp"
+            android:layout_marginTop="5.5dp" />
+
+        <!--<com.example.littlemap.CircleView-->
+            <!--android:id="@+id/circle_view"-->
+            <!--android:layout_width="144dp"-->
+            <!--android:layout_height="144dp"-->
+            <!--android:layout_marginLeft="5.52dp"-->
+            <!--android:layout_marginTop="5.5dp"/>-->
+
+        <TextView
+            android:id="@+id/my_point_textview"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="#c3c3c3"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/scale_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/my_point_textview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/scale_bg"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="1:20"
+            android:textColor="#e8e8e8"
+            android:textSize="8sp" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/open_view_btn"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:visibility="gone"
+        android:background="@drawable/rader_btn" />
+</RelativeLayout>
